@@ -1,0 +1,128 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    font-family: 'Raleway', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+.background-color{
+    background:#009dff !important;
+}
+.blue-text{
+    color:#009dff;
+}
+.fab{
+    cursor: pointer;
+    color:#ddd;
+}
+.fab:hover{
+    color:white;
+}
+.book-room:hover{
+    border:1px solid rgb(0, 157, 255) !important;
+    background:white !important;
+    color:#009dff !important;
+}
+
+.navigation-top{
+    z-index: 2000;
+    left:0;
+    right: 0;
+}
+.carousel-control-prev{
+    background:linear-gradient(to right, rgba(0, 157, 255,0.5),transparent) !important;
+}
+.carousel-control-next{
+    background:linear-gradient(to left, rgba(0,157,255,0.5),transparent) !important;
+
+}
+.carouselCaption{
+    background:rgba(0,0,0,0.5);
+    left:0;
+    height:100%;
+    top:0;
+}
+.carousel-item img{
+    height:70vh;
+    width:100vw;
+}
+.learn-more{
+    text-decoration: underline;
+    padding:0px !important;
+}
+.learn-more:hover{
+    color:#009dff;
+}
+.about-image{
+    height:40vh !important;
+}
+.container{
+    min-height:100vh;
+}
+.card-link{
+    background:white;
+    border:1px solid #009dff;
+}
+.card-link:hover{
+    background:#009dff;
+    color:white;
+}
+.cards ul{
+    list-style-type: disc !important;
+}
+.video-area{
+    height: 75vh;
+}
+.overlay-filter{
+    background:rgba(0,0,0,0.5);
+}
+.text-content{
+    z-index: 200;
+}
+.about-img{
+    width:49.5vw;
+    height: 60vh;
+}
+
+@media only screen and (max-width:1000px) {
+    .cta-area{
+        display: none !important;
+    }
+    .logo{
+        justify-content: flex-end !important;
+    }
+    .about-img{
+        width:100vw;
+    }
+}
+.fieldset{
+    min-height:40vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.number{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border:1px solid #009dff
+}
+.number:hover{
+    background:white !important;
+    color:#009dff !important;
+}
+.col>img{
+    width:100%;
+}
+a{
+    text-decoration: none;
+}.splitted-images img{
+    max-width:200px;
+}
+.splitted-images img:nth-child(2){
+    position: absolute;
+    top:-50px;
+    left:70%;
+}
